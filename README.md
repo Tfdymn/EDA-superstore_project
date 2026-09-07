@@ -58,7 +58,6 @@ I used different types of charts to understand the data:
 * Histograms
 * Box plots
 * Scatter plots
-* Heatmaps
 
 ### 4. Correlation Analysis
 
@@ -76,7 +75,7 @@ Some of the important findings from the analysis are:
 * Discount and Profit have a weak negative relationship.
 * Quantity and Profit have a very weak relationship.
 * Profit differs between categories, sub-categories, regions and customer segments.
-* Furniture generally produces lower profit compared with the other major categories.
+* Furniture has the lowest average profit among the three categories.
 * Overall profit shows an increasing trend across the years.
 
 ## Tools Used
@@ -91,13 +90,17 @@ Some of the important findings from the analysis are:
 ## Project Structure
 
 ```text
-Superstore-EDA/
+EDA-superstore_project/
 │
-├── EDA.ipynb
+├── data/
+│   └── Sample - Superstore.csv
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── data/
-    └── superstore.csv
+└── requirements.txt
 ```
 
 ## How to Run
